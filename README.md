@@ -45,14 +45,12 @@ Run the Project
 
 1.Clone the repository
 
-  '''
-  git clone https://github.com/your-username/fwi-prediction-system.git
-  cd fwi-prediction-system
-  '''
+git clone https://github.com/your-username/fwi-prediction-system.git
+cd fwi-prediction-system
   
 2.Create and activate a virtual environment
 
- - Windows
+- Windows
 
    python -m venv venv
    venv\Scripts\activate
@@ -61,7 +59,7 @@ Run the Project
  
    python3 -m venv venv
    source venv/bin/activate
-   
+ 
 3.Install dependencies:
 
   pip install -r requirements.txt
