@@ -3,18 +3,20 @@ FWI Predictor – A Machine Learning Model to Predict Fire Weather Index
 Project Statement Wildfires pose a significant threat to ecosystems, human life, and property. The Fire Weather Index (FWI) is a crucial tool used by meteorological and environmental agencies worldwide to estimate wildfire potential. This project aims to build a machine learning model that predicts FWI based on real-time environmental data, enabling proactive wildfire risk management. The model is trained using Ridge Regression, deployed via a Flask web application, and supports early warning systems for wildfire hazards.
 
 Outcomes:
-• A predictive ML model trained using Ridge Regression to forecast FWI.
-• A pre-processing pipeline using StandardScaler for normalization.
-• A Flask-based web app where users can input environmental values and get FWI predictions. • A system that can help forest departments, emergency planners, and climate researchers make data driven decisions.
+
+- A predictive ML model trained using Ridge Regression to forecast FWI.
+- A pre-processing pipeline using StandardScaler for normalization.
+- A Flask-based web app where users can input environmental values and get FWI predictions. • A system that can help forest departments, emergency planners, and climate researchers make data driven decisions.
 
 Modules to be implemented
-• Data Collection
-• Data Exploration (EDA) and Data Preprocessing
-• Feature Engineering and Scaling
-• Model Training using Ridge Regression
-• Evaluation and Optimization
-• Deployment via Flask App
-• Presentation and Documentation
+
+- Data Collection
+- Data Exploration (EDA) and Data Preprocessing
+- Feature Engineering and Scaling
+- Model Training using Ridge Regression
+- Evaluation and Optimization
+- Deployment via Flask App
+- Presentation and Documentation
 
 Web Application (Flask) Features:
 
@@ -43,8 +45,10 @@ Run the Project
 
 1.Clone the repository
 
+  '''
   git clone https://github.com/your-username/fwi-prediction-system.git
   cd fwi-prediction-system
+  '''
   
 2.Create and activate a virtual environment
 
