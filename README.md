@@ -85,3 +85,48 @@ Project Status
 - Evaluation and visualization approved
 - Flask deployment functional
 - Documentation and reproducibility ensured
+
+WORKFLOW
+<img width="271" height="941" alt="image" src="https://github.com/user-attachments/assets/7cd1a9cd-873b-47cf-86e2-35ec6b6e347d" />
+
+Input Features
+
+- Temperature – Ambient air temperature
+- RH – Relative Humidity
+- Ws – Wind Speed
+- Rain – Rainfall
+- FFMC – Fine Fuel Moisture Code
+- DMC – Duff Moisture Code
+- DC – Drought Code
+- ISI – Initial Spread Index
+- BUI – Buildup Index
+
+Target Variable
+
+- FWI (Fire Weather Index)
+
+WEBPAGE
+
+<img width="1286" height="929" alt="image" src="https://github.com/user-attachments/assets/7be24f6d-b79a-497c-874f-55209a74514b" />
+
+<img width="907" height="260" alt="image" src="https://github.com/user-attachments/assets/59473795-d4f1-4c58-ad7d-de420e8bf27a" />
+
+<img width="821" height="265" alt="image" src="https://github.com/user-attachments/assets/cc12c7cf-0016-4520-88fb-b7c0da024080" />
+
+Future Scope
+
+- Integration with real-time weather APIs
+- Cloud deployment (AWS / Azure)
+- Mobile-friendly interface
+- Alert-based fire warning system
+
+Conclusion 
+This project successfully demonstrates an end-to-end machine learning pipeline for predicting the Fire Weather Index (FWI) using meteorological data. By integrating a trained and optimized Ridge Regression model into a Flask web application, the system enables real-time fire risk prediction with clear risk classification. The project highlights practical skills in data preprocessing, model evaluation, deployment, and reproducibility.
+
+
+Author  
+Srinanda C S  
+Infosys Springboard Internship Project
+
+
+
